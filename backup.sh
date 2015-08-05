@@ -11,6 +11,7 @@ if [ ! -n "$1" ];then
     exit 1;
 fi
 
+# 判断是否是目录
 if [ ! -d "$1" ];then
     echo "Usage: $1 is not exists!";
     exit 1;
