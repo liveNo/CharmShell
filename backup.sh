@@ -23,10 +23,10 @@ TAR_FILE=`basename $TAR_DIR`
 TODAY=`date '+%Y%m%d%H%M'`
 SUFFIX='.tar.gz'
 
-if [ "-print"="$2" ];then
-    tar zcvf $TAR_FILE'-'$TODAY$SUFFIX $TAR_DIR
+if [ "-print" == "$2" ];then
+    tar -zcvf $TAR_FILE'-'$TODAY$SUFFIX -C $TAR_DIR'/..' $TAR_FILE
 else
-    tar zcf $TAR_FILE'-'$TODAY$SUFFIX $TAR_DIR
+    tar -zcf $TAR_FILE'-'$TODAY$SUFFIX -C $TAR_DIR'/..' $TAR_FILE
 fi
 
 if [ $? = 0 ];then
