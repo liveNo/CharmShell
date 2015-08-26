@@ -10,5 +10,8 @@ dtree.sh
 backup.sh
   -  压缩备份目录，目录名+日期时间 , 后缀 .tar.gz
 
-  tput.sh
+tput.sh
   - tput 光标的用法
+
+replace.sh
+  - 正则替换
