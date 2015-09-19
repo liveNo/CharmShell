@@ -15,3 +15,6 @@ tput.sh
 
 replace.sh
   - 正则替换
+
+ssh_login.sh
+  - ssh帐户自动登陆
