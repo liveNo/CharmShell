@@ -15,3 +15,5 @@
 * replace.sh  正则替换
 
 * ssh_login.sh  ssh帐户自动登陆
+
+* ping.sh  用途：根据你的网络配置对网络地址192.168.0进行修改
